@@ -1,0 +1,20 @@
+{
+  "name": "copyfilemon-brunch",
+  "version": "1.0.3",
+  "description": "copy files to public, ideal for compiled from bower",
+  "author": "Álvaro Touzón (@kasselTrankos)",
+  "homepage": "https://github.com/kasselTrankos/copyfilemon-brunch",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kasselTrankos/copyfilemon-brunch"
+  },
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "quickly-copy-file": "^0.1.0"
+  },
+  "devDependencies": {}
+}
